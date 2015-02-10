@@ -7,8 +7,8 @@ ces exemples. */
 
 /* Voici une variable, elle doit commencer par le
 mot-clé `var`. Elle est descriptive et en anglais.
-Les lignes de code se termine généralement par un
-point-virgule ne JavaScript. */
+Les lignes de code se terminent généralement par un
+point-virgule en JavaScript. */
 var exampleVariable = 'Hello World!';
 
 
@@ -17,12 +17,13 @@ var exampleVariable = 'Hello World!';
 anglais. Il faut l'instancier pour qu'elle soit
 exécutée. */
 function displayThing(thingToDisplay) {
-    // Print the thing in the browser console.
+    /* Affiche `thingToDisplay` dans la console du
+    navigateur.*/
     console.log(thingToDisplay);
 }
 
 
-/* Voici la façon d'afficher quelquechose dans la
+/* Voici la façon d'afficher quelque chose dans la
 console du navigateur. */
 console.log('This is displayed in the console.');
 
@@ -31,5 +32,5 @@ console.log('This is displayed in the console.');
 displayThing('A thing.');
 
 
-/* Que va faire cette ligne une fois décommentée ? */
+/* Que va faire cette ligne une fois dé-commentée ? */
 // displayThing(exampleVariable);
